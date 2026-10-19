@@ -1755,7 +1755,9 @@ ul {
   padding:22px;display:flex;flex-direction:column;gap:20px;
 }
 .locatie__foto{margin:0}
-.locatie__foto img{width:100%;aspect-ratio:16/9;object-fit:cover;display:block;border-radius:calc(var(--raza) - 1px)}
+/* poza ei cu bratele incrucisate (trimisa pe 19.10), 1:1, ca sa nu ramana doar
+   capul; a inlocuit poza din sala de tratament, taiata de ea la revizie */
+.locatie__foto img{width:100%;aspect-ratio:1/1;object-fit:cover;display:block;border-radius:calc(var(--raza) - 1px)}
 .locatie__foto figcaption{margin-top:10px;font-size:14px;color:var(--text-slab)}
 .locatie__lista{display:grid;gap:14px;margin:0}
 .locatie__lista div{display:grid;gap:3px;padding-bottom:14px;border-bottom:1px solid var(--linie)}
@@ -2116,6 +2118,15 @@ figure{margin:0}
 /* etichetele scurte (functia, legendele foto) nu se despart in silabe:
    „ONCO-FORT” la capat de rand, in majuscule, arata a greseala */
 .hero__rol,.etape__legenda,.banda__legenda{-webkit-hyphens:none;hyphens:none}
+/* etape.html: poza ei de la birou e 1:1 (19.10), ca sa intre si mainile cu
+   hartiile; coloana din stanga ajunge cam cat cele patru etape */
+.etape__foto img{aspect-ratio:1/1}
+/* (19.10) pe telefon, randurile cu un nume lung la capat (Instagram, Facebook,
+   legenda pozei de la locatie) se rup dupa eticheta: randul dinaintea unei
+   ruperi fortate nu se intinde la justify; de la 480 px incap pe un rand */
+@media (min-width:480px){ .rupt-ingust{display:none} }
+@media (min-width:380px){ .rupt-sub-380{display:none} }
+.locatie__foto figcaption{-webkit-hyphens:none;hyphens:none}
 /* (revizie) datele de contact raman intregi: fara silabe in contul de
    Instagram, in adresa si in telefon */
 .caseta__detaliu a,.legatura-ig,.subsol a,.subsol__firma{-webkit-hyphens:none;hyphens:none}
