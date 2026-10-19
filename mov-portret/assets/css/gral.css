@@ -2209,6 +2209,16 @@ a[href^="tel:"]{white-space:nowrap}
   .pagina-hero--compact .pagina-hero__foto{aspect-ratio:4/3;max-width:none}
   .pagina-hero--compact .pagina-hero__foto img{object-position:50% 0%}
 }
+/* (19.10) pagina Despre: pozele ei, intregi, 2:3. In antet, pe desktop, poza
+   intra in primul ecran: latimea scade cand fereastra e joasa, raportul ramane */
+.pagina-hero__foto--intreaga{aspect-ratio:2/3}
+@media (min-width:900px){
+  /* poza incepe la ~190 px de sus (antetul, banda, spatiul de sus): restul ecranului, minus 30 px */
+  .pagina-hero__foto--intreaga{width:min(100%,420px,calc((100vh - 220px) * 2 / 3))}
+}
+/* „Ascult intai”: poza de la biroul de lemn, intreaga, centrata in coloana;
+   pe toata latimea coloanei de text ar avea aproape 1000 px inaltime */
+.foto-lata--portret{max-width:420px;margin:30px auto 0}
 
 
 /* ==========================================================================
