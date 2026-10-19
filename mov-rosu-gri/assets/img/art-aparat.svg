@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" role="img" aria-label="Ilustrație: sală de radioterapie cu accelerator liniar">
+  <defs>
+    <linearGradient id="fundal" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e8f1f4"/>
+      <stop offset="100%" stop-color="#dceaef"/>
+    </linearGradient>
+    <linearGradient id="metal" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#cfe0e6"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="675" fill="url(#fundal)"/>
+
+  <!-- lumina difuza din tavan -->
+  <ellipse cx="600" cy="120" rx="420" ry="150" fill="url(#halo)"/>
+
+  <!-- gantry: bratul aparatului -->
+  <circle cx="600" cy="300" r="180" fill="none" stroke="url(#metal)" stroke-width="54" opacity="0.95"/>
+  <circle cx="600" cy="300" r="180" fill="none" stroke="#b9d2da" stroke-width="2" opacity="0.6"/>
+
+  <!-- capul de tratament -->
+  <rect x="548" y="150" width="104" height="90" rx="14" fill="url(#metal)"/>
+  <rect x="566" y="240" width="68" height="30" rx="8" fill="#b9d2da"/>
+
+  <!-- fascicul sugerat, foarte discret -->
+  <path d="M580 270 L560 430 L640 430 L620 270 Z" fill="#4a8ba3" opacity="0.10"/>
+
+  <!-- masa de tratament -->
+  <rect x="380" y="430" width="440" height="26" rx="13" fill="#ffffff"/>
+  <rect x="380" y="430" width="440" height="26" rx="13" fill="#dceaef" opacity="0.5"/>
+  <rect x="470" y="456" width="26" height="120" fill="#cfe0e6"/>
+  <rect x="440" y="576" width="86" height="14" rx="7" fill="#b9d2da"/>
+
+  <!-- perna -->
+  <rect x="404" y="414" width="86" height="22" rx="11" fill="#e4ede7"/>
+
+  <!-- podea -->
+  <rect y="590" width="1200" height="85" fill="#d6e5ea"/>
+  <rect y="590" width="1200" height="4" fill="#c3d8df"/>
+
+  <!-- plante discrete in colt, pentru caldura -->
+  <ellipse cx="1090" cy="560" rx="30" ry="14" fill="#6b8f7a" opacity="0.55" transform="rotate(-22 1090 560)"/>
+  <ellipse cx="1122" cy="552" rx="30" ry="14" fill="#93b3a1" opacity="0.55" transform="rotate(18 1122 552)"/>
+  <path d="M1080 590 h60 l-9 44 h-42 z" fill="#c1705c" opacity="0.75"/>
+</svg>

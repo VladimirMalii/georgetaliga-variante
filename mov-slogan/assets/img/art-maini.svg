@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" role="img" aria-label="Ilustrație: sprijin și empatie">
+  <defs>
+    <linearGradient id="cald" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f7f2ec"/>
+      <stop offset="60%" stop-color="#e4ede7"/>
+      <stop offset="100%" stop-color="#dceaef"/>
+    </linearGradient>
+    <radialGradient id="lum" cx="0.65" cy="0.3" r="0.6">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="675" fill="url(#cald)"/>
+  <ellipse cx="780" cy="200" rx="420" ry="260" fill="url(#lum)"/>
+
+  <!-- doua forme organice care se sprijina reciproc -->
+  <path d="M420 430 q-60 -110 40 -170 q80 -48 150 10 q40 34 30 90"
+        fill="none" stroke="#6b8f7a" stroke-width="26" stroke-linecap="round" opacity="0.55"/>
+  <path d="M780 430 q60 -110 -40 -170 q-80 -48 -150 10 q-40 34 -30 90"
+        fill="none" stroke="#4a8ba3" stroke-width="26" stroke-linecap="round" opacity="0.45"/>
+
+  <!-- punct de intalnire -->
+  <circle cx="600" cy="360" r="34" fill="#c1705c" opacity="0.28"/>
+  <circle cx="600" cy="360" r="18" fill="#c1705c" opacity="0.4"/>
+
+  <!-- linii orizontale sugerand liniste -->
+  <line x1="300" y1="530" x2="900" y2="530" stroke="#93b3a1" stroke-width="4" opacity="0.3" stroke-linecap="round"/>
+  <line x1="380" y1="562" x2="820" y2="562" stroke="#93b3a1" stroke-width="4" opacity="0.2" stroke-linecap="round"/>
+</svg>

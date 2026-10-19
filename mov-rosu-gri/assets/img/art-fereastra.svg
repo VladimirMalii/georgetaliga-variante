@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" width="1200" height="675" role="img" aria-label="Ilustrație: fereastră cu lumină de dimineață">
+  <defs>
+    <linearGradient id="cam" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f7f2ec"/>
+      <stop offset="100%" stop-color="#ebe2d8"/>
+    </linearGradient>
+    <linearGradient id="afara" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f0f7f9"/>
+      <stop offset="60%" stop-color="#dceaef"/>
+      <stop offset="100%" stop-color="#e4ede7"/>
+    </linearGradient>
+    <linearGradient id="raza" x1="0" y1="0" x2="0.7" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="675" fill="url(#cam)"/>
+
+  <!-- fereastra -->
+  <rect x="330" y="70" width="540" height="420" rx="10" fill="url(#afara)"/>
+  <rect x="330" y="70" width="540" height="420" rx="10" fill="none" stroke="#dcd2c6" stroke-width="14"/>
+  <line x1="600" y1="70" x2="600" y2="490" stroke="#dcd2c6" stroke-width="10"/>
+  <line x1="330" y1="280" x2="870" y2="280" stroke="#dcd2c6" stroke-width="10"/>
+
+  <!-- vegetatie difuza afara -->
+  <circle cx="430" cy="220" r="80" fill="#93b3a1" opacity="0.45"/>
+  <circle cx="500" cy="270" r="58" fill="#6b8f7a" opacity="0.32"/>
+  <circle cx="760" cy="200" r="66" fill="#93b3a1" opacity="0.4"/>
+  <circle cx="800" cy="272" r="48" fill="#6b8f7a" opacity="0.28"/>
+
+  <!-- pervaz -->
+  <rect x="310" y="490" width="580" height="20" rx="6" fill="#dcd2c6"/>
+
+  <!-- cana pe pervaz -->
+  <rect x="470" y="440" width="52" height="50" rx="7" fill="#ffffff"/>
+  <path d="M522 456 q22 10 0 24" stroke="#ffffff" stroke-width="8" fill="none"/>
+  <ellipse cx="496" cy="440" rx="26" ry="7" fill="#dceaef"/>
+  <path d="M486 424 q6 -18 0 -30" stroke="#cfe0e6" stroke-width="4" fill="none" opacity="0.8" stroke-linecap="round"/>
+  <path d="M502 424 q7 -20 0 -34" stroke="#cfe0e6" stroke-width="4" fill="none" opacity="0.6" stroke-linecap="round"/>
+
+  <!-- planta pe pervaz -->
+  <path d="M700 490 v-40" stroke="#6b8f7a" stroke-width="6"/>
+  <ellipse cx="684" cy="436" rx="24" ry="12" fill="#6b8f7a" transform="rotate(-26 684 436)"/>
+  <ellipse cx="716" cy="430" rx="24" ry="12" fill="#93b3a1" transform="rotate(22 716 430)"/>
+  <path d="M680 490 h42 l-7 30 h-28 z" fill="#c1705c" opacity="0.85"/>
+
+  <!-- raza de lumina pe podea -->
+  <path d="M330 510 L870 510 L1010 675 L200 675 Z" fill="url(#raza)"/>
+</svg>
