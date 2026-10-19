@@ -2165,12 +2165,14 @@ a[href^="tel:"]{white-space:nowrap}
   .hero--portret{padding-top:14px;padding-bottom:clamp(36px,9vw,56px)}
   .hero--portret .hero__media{order:-1;max-width:none;margin:0}
   .hero--portret .hero__media::before{left:14px;right:-8px;top:14px;bottom:-8px}
-  .hero--portret .hero__foto img{aspect-ratio:1/1;object-position:50% 10%}
+  .hero--portret .hero__foto img{aspect-ratio:1/1;object-position:50% 6%}
 }
-/* (revizie) pe tableta cadrul 16:10 taia sub barbie, ca la buletin: acum
-   4:3, cu capul si umerii; sursa de 1350 px (srcset) tine imaginea clara */
+/* (revizie, 19.10 seara) pe tableta portretul e patrat, ca pe telefon,
+   centrat si de cel mult 560 px: la 4:3 fata cadea jos, cu crestetul la
+   margine (masurat cu detectia de fata) */
 @media (min-width:620px) and (max-width:999px){
-  .hero--portret .hero__foto img{aspect-ratio:4/3;object-position:50% 10%}
+  .hero--portret .hero__media{max-width:560px;width:100%;margin-inline:auto}
+  .hero--portret .hero__foto img{aspect-ratio:1/1;object-position:50% 6%}
 }
 /* (revizie) „Despre mine”: dreptunghiul decorativ doar pe ecranele late; pe
    telefon iesea ca o pata gri langa marginea ecranului */
