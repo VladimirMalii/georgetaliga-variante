@@ -6,86 +6,87 @@ Consultații: Spitalul OncoFort, Str. Traian Popovici 79-91, Sector 3, Bucureșt
 
 ## Pagini principale
 
-- [Prima pagină](https://georgetaliga.ro/): medicul, pe scurt, și etapele tratamentului
-- [Afecțiuni tratate](https://georgetaliga.ro/afectiuni): toate diagnosticele, fiecare cu pagina ei
-- [Despre mine](https://georgetaliga.ro/despre): parcursul profesional și formarea
-- [Pentru pacienți](https://georgetaliga.ro/pacienti): calendarul tratamentului, miturile despre radioterapie, unde mă găsiți
-- [Articole](https://georgetaliga.ro/blog): toate articolele, pe etape
-- [Calendarul tratamentului](https://georgetaliga.ro/calendar): așază în calendar ședințele stabilite de medic
-- [Adevărat sau fals](https://georgetaliga.ro/mituri): mituri despre radioterapie
+- [Prima pagină](https://vladimirmalii.github.io/georgetaliga-variante/mov-portret/): medicul, pe scurt, și programarea la consultație
+- [Afecțiuni tratate](https://vladimirmalii.github.io/georgetaliga-variante/mov-portret/afectiuni): toate diagnosticele, fiecare cu pagina ei
+- [Despre mine](https://vladimirmalii.github.io/georgetaliga-variante/mov-portret/despre): parcursul profesional și formarea
+- [Etapele tratamentului](https://vladimirmalii.github.io/georgetaliga-variante/mov-portret/etape): prima consultație, simularea, ședințele, monitorizarea
+- [Pentru pacienți](https://vladimirmalii.github.io/georgetaliga-variante/mov-portret/pacienti): calendarul tratamentului, miturile despre radioterapie, unde mă găsiți
+- [Articole](https://vladimirmalii.github.io/georgetaliga-variante/mov-portret/blog): toate articolele, pe etape
+- [Calendarul tratamentului](https://vladimirmalii.github.io/georgetaliga-variante/mov-portret/calendar): așază în calendar ședințele stabilite de medic
+- [Adevărat sau fals](https://vladimirmalii.github.io/georgetaliga-variante/mov-portret/mituri): mituri despre radioterapie
 
 ## Afecțiuni tratate
 
 ### Sân și cancere ginecologice
 
-- [Cancerul de sân și radioterapia](https://georgetaliga.ro/afectiuni/cancerul-de-san)
-- [Cancerul de col uterin și radioterapia](https://georgetaliga.ro/afectiuni/cancerul-de-col-uterin)
-- [Cancerul de endometru și radioterapia](https://georgetaliga.ro/afectiuni/cancerul-de-endometru)
-- [Cancerul de vagin și radioterapia](https://georgetaliga.ro/afectiuni/cancerul-de-vagin)
-- [Cancerul de vulvă și radioterapia](https://georgetaliga.ro/afectiuni/cancerul-de-vulva)
+- [Cancerul de sân și radioterapia](https://vladimirmalii.github.io/georgetaliga-variante/mov-portret/afectiuni/cancerul-de-san)
+- [Cancerul de col uterin și radioterapia](https://vladimirmalii.github.io/georgetaliga-variante/mov-portret/afectiuni/cancerul-de-col-uterin)
+- [Cancerul de endometru și radioterapia](https://vladimirmalii.github.io/georgetaliga-variante/mov-portret/afectiuni/cancerul-de-endometru)
+- [Cancerul de vagin și radioterapia](https://vladimirmalii.github.io/georgetaliga-variante/mov-portret/afectiuni/cancerul-de-vagin)
+- [Cancerul de vulvă și radioterapia](https://vladimirmalii.github.io/georgetaliga-variante/mov-portret/afectiuni/cancerul-de-vulva)
 ### Cancere urologice
 
-- [Cancerul de prostată și radioterapia](https://georgetaliga.ro/afectiuni/cancerul-de-prostata)
-- [Cancerul de vezică urinară și radioterapia](https://georgetaliga.ro/afectiuni/cancerul-de-vezica-urinara)
-- [Cancerul renal și radioterapia](https://georgetaliga.ro/afectiuni/cancerul-renal)
-- [Cancerul testicular și radioterapia](https://georgetaliga.ro/afectiuni/cancerul-testicular)
-- [Cancerul penian și radioterapia](https://georgetaliga.ro/afectiuni/cancerul-penian)
-- [Cancerul uretral și radioterapia](https://georgetaliga.ro/afectiuni/cancerul-uretral)
+- [Cancerul de prostată și radioterapia](https://vladimirmalii.github.io/georgetaliga-variante/mov-portret/afectiuni/cancerul-de-prostata)
+- [Cancerul de vezică urinară și radioterapia](https://vladimirmalii.github.io/georgetaliga-variante/mov-portret/afectiuni/cancerul-de-vezica-urinara)
+- [Cancerul renal și radioterapia](https://vladimirmalii.github.io/georgetaliga-variante/mov-portret/afectiuni/cancerul-renal)
+- [Cancerul testicular și radioterapia](https://vladimirmalii.github.io/georgetaliga-variante/mov-portret/afectiuni/cancerul-testicular)
+- [Cancerul penian și radioterapia](https://vladimirmalii.github.io/georgetaliga-variante/mov-portret/afectiuni/cancerul-penian)
+- [Cancerul uretral și radioterapia](https://vladimirmalii.github.io/georgetaliga-variante/mov-portret/afectiuni/cancerul-uretral)
 ### Cancere digestive
 
-- [Cancerul de esofag și radioterapia](https://georgetaliga.ro/afectiuni/cancerul-de-esofag)
-- [Cancerul gastric și radioterapia](https://georgetaliga.ro/afectiuni/cancerul-gastric)
-- [Cancerul pancreatic și radioterapia](https://georgetaliga.ro/afectiuni/cancerul-pancreatic)
-- [Cancerul hepatic și radioterapia](https://georgetaliga.ro/afectiuni/cancerul-hepatic)
-- [Cancerul de vezică biliară și radioterapia](https://georgetaliga.ro/afectiuni/cancerul-de-vezica-biliara)
-- [Cancerul de rect și radioterapia](https://georgetaliga.ro/afectiuni/cancerul-de-rect)
-- [Cancerul de canal anal și radioterapia](https://georgetaliga.ro/afectiuni/cancerul-de-canal-anal)
+- [Cancerul de esofag și radioterapia](https://vladimirmalii.github.io/georgetaliga-variante/mov-portret/afectiuni/cancerul-de-esofag)
+- [Cancerul gastric și radioterapia](https://vladimirmalii.github.io/georgetaliga-variante/mov-portret/afectiuni/cancerul-gastric)
+- [Cancerul pancreatic și radioterapia](https://vladimirmalii.github.io/georgetaliga-variante/mov-portret/afectiuni/cancerul-pancreatic)
+- [Cancerul hepatic și radioterapia](https://vladimirmalii.github.io/georgetaliga-variante/mov-portret/afectiuni/cancerul-hepatic)
+- [Cancerul de vezică biliară și radioterapia](https://vladimirmalii.github.io/georgetaliga-variante/mov-portret/afectiuni/cancerul-de-vezica-biliara)
+- [Cancerul de rect și radioterapia](https://vladimirmalii.github.io/georgetaliga-variante/mov-portret/afectiuni/cancerul-de-rect)
+- [Cancerul de canal anal și radioterapia](https://vladimirmalii.github.io/georgetaliga-variante/mov-portret/afectiuni/cancerul-de-canal-anal)
 ### Cap și gât (ORL)
 
-- [Cancerul de nazofaringe și radioterapia](https://georgetaliga.ro/afectiuni/cancerul-de-nazofaringe)
-- [Cancerul de orofaringe și radioterapia](https://georgetaliga.ro/afectiuni/cancerul-de-orofaringe)
-- [Cancerele cavității orale și radioterapia](https://georgetaliga.ro/afectiuni/cancerele-cavitatii-orale)
-- [Cancerele hipofaringelui și radioterapia](https://georgetaliga.ro/afectiuni/cancerele-hipofaringelui)
-- [Cancerul de laringe și radioterapia](https://georgetaliga.ro/afectiuni/cancerul-de-laringe)
-- [Cancerul de parotidă și radioterapia](https://georgetaliga.ro/afectiuni/cancerul-de-parotida)
-- [Cancerul glandelor salivare și radioterapia](https://georgetaliga.ro/afectiuni/cancerul-glandelor-salivare)
-- [Cancerul cavității nazale și al sinusurilor paranazale și radioterapia](https://georgetaliga.ro/afectiuni/cancerul-cavitatii-nazale-si-al-sinusurilor-paranazale)
-- [Cancerul tiroidian și radioterapia](https://georgetaliga.ro/afectiuni/cancerul-tiroidian)
+- [Cancerul de nazofaringe și radioterapia](https://vladimirmalii.github.io/georgetaliga-variante/mov-portret/afectiuni/cancerul-de-nazofaringe)
+- [Cancerul de orofaringe și radioterapia](https://vladimirmalii.github.io/georgetaliga-variante/mov-portret/afectiuni/cancerul-de-orofaringe)
+- [Cancerele cavității orale și radioterapia](https://vladimirmalii.github.io/georgetaliga-variante/mov-portret/afectiuni/cancerele-cavitatii-orale)
+- [Cancerele hipofaringelui și radioterapia](https://vladimirmalii.github.io/georgetaliga-variante/mov-portret/afectiuni/cancerele-hipofaringelui)
+- [Cancerul de laringe și radioterapia](https://vladimirmalii.github.io/georgetaliga-variante/mov-portret/afectiuni/cancerul-de-laringe)
+- [Cancerul de parotidă și radioterapia](https://vladimirmalii.github.io/georgetaliga-variante/mov-portret/afectiuni/cancerul-de-parotida)
+- [Cancerul glandelor salivare și radioterapia](https://vladimirmalii.github.io/georgetaliga-variante/mov-portret/afectiuni/cancerul-glandelor-salivare)
+- [Cancerul cavității nazale și al sinusurilor paranazale și radioterapia](https://vladimirmalii.github.io/georgetaliga-variante/mov-portret/afectiuni/cancerul-cavitatii-nazale-si-al-sinusurilor-paranazale)
+- [Cancerul tiroidian și radioterapia](https://vladimirmalii.github.io/georgetaliga-variante/mov-portret/afectiuni/cancerul-tiroidian)
 ### Torace
 
-- [Cancerul pulmonar și radioterapia](https://georgetaliga.ro/afectiuni/cancerul-pulmonar)
-- [Timomul, carcinomul timic și radioterapia](https://georgetaliga.ro/afectiuni/timomul-si-carcinomul-timic)
+- [Cancerul pulmonar și radioterapia](https://vladimirmalii.github.io/georgetaliga-variante/mov-portret/afectiuni/cancerul-pulmonar)
+- [Timomul, carcinomul timic și radioterapia](https://vladimirmalii.github.io/georgetaliga-variante/mov-portret/afectiuni/timomul-si-carcinomul-timic)
 ### Creier și ochi
 
-- [Tumorile cerebrale primare și radioterapia la adulți](https://georgetaliga.ro/afectiuni/tumorile-cerebrale-primare-la-adulti)
-- [Metastazele cerebrale și radioterapia](https://georgetaliga.ro/afectiuni/metastazele-cerebrale)
-- [Cancerele ochiului și ale orbitei](https://georgetaliga.ro/afectiuni/cancerele-ochiului-si-ale-orbitei)
+- [Tumorile cerebrale primare și radioterapia la adulți](https://vladimirmalii.github.io/georgetaliga-variante/mov-portret/afectiuni/tumorile-cerebrale-primare-la-adulti)
+- [Metastazele cerebrale și radioterapia](https://vladimirmalii.github.io/georgetaliga-variante/mov-portret/afectiuni/metastazele-cerebrale)
+- [Cancerele ochiului și ale orbitei](https://vladimirmalii.github.io/georgetaliga-variante/mov-portret/afectiuni/cancerele-ochiului-si-ale-orbitei)
 ### Os, părți moi și piele
 
-- [Sarcoamele de părți moi și radioterapia](https://georgetaliga.ro/afectiuni/sarcoamele-de-parti-moi)
-- [Osteosarcoamele și radioterapia](https://georgetaliga.ro/afectiuni/osteosarcoamele)
-- [Sarcomul Ewing și radioterapia](https://georgetaliga.ro/afectiuni/sarcomul-ewing)
-- [Chordomul, condrosarcomul și radioterapia](https://georgetaliga.ro/afectiuni/chordomul-si-condrosarcomul)
-- [Cancerul de piele și radioterapia](https://georgetaliga.ro/afectiuni/cancerul-de-piele)
+- [Sarcoamele de părți moi și radioterapia](https://vladimirmalii.github.io/georgetaliga-variante/mov-portret/afectiuni/sarcoamele-de-parti-moi)
+- [Osteosarcoamele și radioterapia](https://vladimirmalii.github.io/georgetaliga-variante/mov-portret/afectiuni/osteosarcoamele)
+- [Sarcomul Ewing și radioterapia](https://vladimirmalii.github.io/georgetaliga-variante/mov-portret/afectiuni/sarcomul-ewing)
+- [Chordomul, condrosarcomul și radioterapia](https://vladimirmalii.github.io/georgetaliga-variante/mov-portret/afectiuni/chordomul-si-condrosarcomul)
+- [Cancerul de piele și radioterapia](https://vladimirmalii.github.io/georgetaliga-variante/mov-portret/afectiuni/cancerul-de-piele)
 ### Limfoame și mielom
 
-- [Limfoamele și radioterapia](https://georgetaliga.ro/afectiuni/limfoamele)
-- [Plasmocitomul, mielomul multiplu și radioterapia](https://georgetaliga.ro/afectiuni/plasmocitomul-si-mielomul-multiplu)
+- [Limfoamele și radioterapia](https://vladimirmalii.github.io/georgetaliga-variante/mov-portret/afectiuni/limfoamele)
+- [Plasmocitomul, mielomul multiplu și radioterapia](https://vladimirmalii.github.io/georgetaliga-variante/mov-portret/afectiuni/plasmocitomul-si-mielomul-multiplu)
 ### Metastaze și urgențe
 
-- [Metastazele osoase și vertebrale. Radioterapia și compresia măduvei spinării](https://georgetaliga.ro/afectiuni/metastazele-osoase-si-vertebrale)
-- [Urgențele oncologice și radioterapia](https://georgetaliga.ro/afectiuni/urgentele-oncologice)
+- [Metastazele osoase și vertebrale. Radioterapia și compresia măduvei spinării](https://vladimirmalii.github.io/georgetaliga-variante/mov-portret/afectiuni/metastazele-osoase-si-vertebrale)
+- [Urgențele oncologice și radioterapia](https://vladimirmalii.github.io/georgetaliga-variante/mov-portret/afectiuni/urgentele-oncologice)
 ### Neoncologice
 
-- [Meningiomul benign și radioterapia](https://georgetaliga.ro/afectiuni/meningiomul-benign)
-- [Schwannomul vestibular - neurinomul de acustic - și radioterapia](https://georgetaliga.ro/afectiuni/schwannomul-vestibular-neurinomul-de-acustic)
-- [Adenomul hipofizar și radioterapia](https://georgetaliga.ro/afectiuni/adenomul-hipofizar)
-- [Craniofaringiomul la adulți și radioterapia](https://georgetaliga.ro/afectiuni/craniofaringiomul-la-adulti)
-- [Paraganglioamele capului și gâtului și radioterapia](https://georgetaliga.ro/afectiuni/paraganglioamele-capului-si-gatului)
-- [Orbitopatia Graves / oftalmopatia tiroidiană și radioterapia](https://georgetaliga.ro/afectiuni/orbitopatia-graves)
-- [Sialoreea severă și radioterapia](https://georgetaliga.ro/afectiuni/sialoreea-severa)
-- [Osificările heterotopice și radioterapia](https://georgetaliga.ro/afectiuni/osificarile-heterotopice)
-- [Ginecomastia indusă de tratamentul antiandrogenic și radioterapia](https://georgetaliga.ro/afectiuni/ginecomastia-indusa-de-tratamentul-antiandrogenic)
+- [Meningiomul benign și radioterapia](https://vladimirmalii.github.io/georgetaliga-variante/mov-portret/afectiuni/meningiomul-benign)
+- [Schwannomul vestibular - neurinomul de acustic - și radioterapia](https://vladimirmalii.github.io/georgetaliga-variante/mov-portret/afectiuni/schwannomul-vestibular-neurinomul-de-acustic)
+- [Adenomul hipofizar și radioterapia](https://vladimirmalii.github.io/georgetaliga-variante/mov-portret/afectiuni/adenomul-hipofizar)
+- [Craniofaringiomul la adulți și radioterapia](https://vladimirmalii.github.io/georgetaliga-variante/mov-portret/afectiuni/craniofaringiomul-la-adulti)
+- [Paraganglioamele capului și gâtului și radioterapia](https://vladimirmalii.github.io/georgetaliga-variante/mov-portret/afectiuni/paraganglioamele-capului-si-gatului)
+- [Orbitopatia Graves / oftalmopatia tiroidiană și radioterapia](https://vladimirmalii.github.io/georgetaliga-variante/mov-portret/afectiuni/orbitopatia-graves)
+- [Sialoreea severă și radioterapia](https://vladimirmalii.github.io/georgetaliga-variante/mov-portret/afectiuni/sialoreea-severa)
+- [Osificările heterotopice și radioterapia](https://vladimirmalii.github.io/georgetaliga-variante/mov-portret/afectiuni/osificarile-heterotopice)
+- [Ginecomastia indusă de tratamentul antiandrogenic și radioterapia](https://vladimirmalii.github.io/georgetaliga-variante/mov-portret/afectiuni/ginecomastia-indusa-de-tratamentul-antiandrogenic)
 
 ## Articole
 
@@ -93,77 +94,77 @@ Consultații: Spitalul OncoFort, Str. Traian Popovici 79-91, Sector 3, Bucureșt
 
 Ce înseamnă diagnosticul, cum se alege tratamentul, ce întrebări să puneți.
 
-- [Ce întrebări să puneți medicului la prima consultație de radioterapie](https://georgetaliga.ro/articole/ce-intrebari-sa-puneti-medicului-la-prima-consultatie-de)
-- [Operația a îndepărtat tumora, analizele sunt bune. De ce poate fi totuși greu de dus radioterapia până la capăt?](https://georgetaliga.ro/articole/operatia-a-indepartat-tumora-analizele-sunt-bune-de-ce-poate-fi)
-- [Când nu mai putem vindeca, încă mai putem îngriji](https://georgetaliga.ro/articole/cand-nu-mai-putem-vindeca-inca-mai-putem-ingriji)
-- [Stadiul IV înseamnă stadiu terminal? Se poate trăi ani cu un cancer metastatic?](https://georgetaliga.ro/articole/stadiul-iv-inseamna-stadiu-terminal-se-poate-trai-ani-cu-un)
-- [Cancer în stadiul IV de la început sau metastaze apărute după ani. Este același lucru?](https://georgetaliga.ro/articole/cancer-in-stadiul-iv-de-la-inceput-sau-metastaze-aparute-dupa)
-- [Cancer descoperit direct în stadiul IV. Cum este posibil, dacă până acum nu am simțit nimic?](https://georgetaliga.ro/articole/cancer-descoperit-direct-in-stadiul-iv-cum-este-posibil-daca)
-- [Cancer în stadiul IV. Ce înseamnă, de fapt, și ce este o metastază?](https://georgetaliga.ro/articole/cancer-in-stadiul-iv-ce-inseamna-de-fapt-si-ce-este-o-metastaza)
-- [Medicina nu lucrează cu garanții](https://georgetaliga.ro/articole/medicina-nu-lucreaza-cu-garantii)
-- [Cancer pulmonar la nefumător. Cum este posibil dacă nu am fumat niciodată?](https://georgetaliga.ro/articole/cancer-pulmonar-la-nefumator-cum-este-posibil-daca-nu-am-fumat)
-- [Cancer de vezică urinară. Am ales tratamentul pentru păstrarea vezicii. Cum se desfășoară și ce urmează după?](https://georgetaliga.ro/articole/cancer-de-vezica-urinara-am-ales-tratamentul-pentru-pastrarea)
-- [Cancer de vezică urinară. Trebuie scoasă vezica sau poate fi păstrată prin radiochimioterapie?](https://georgetaliga.ro/articole/cancer-de-vezica-urinara-trebuie-scoasa-vezica-sau-poate-fi)
-- [Cancer de col uterin. Operație sau radiochimioterapie? Cum alegem tratamentul în funcție de stadiu?](https://georgetaliga.ro/articole/cancer-de-col-uterin-operatie-sau-radiochimioterapie-cum-alegem)
-- [Metastaze cerebrale. Înseamnă că trebuie iradiat tot creierul?](https://georgetaliga.ro/articole/metastaze-cerebrale-inseamna-ca-trebuie-iradiat-tot-creierul)
-- [Metastază la coloana cervicală. Când este suficientă radioterapia și când este nevoie de operație?](https://georgetaliga.ro/articole/metastaza-la-coloana-cervicala-cand-este-suficienta)
-- [Metastază osoasă. Am fost operat și osul a fost stabilizat. De ce mai poate fi necesară radioterapia?](https://georgetaliga.ro/articole/metastaza-osoasa-am-fost-operat-si-osul-a-fost-stabilizat-de-ce)
-- [Cancer de rect. Mi s-a spus că aș putea rămâne cu stomă. Va fi temporară sau definitivă?](https://georgetaliga.ro/articole/cancer-de-rect-mi-s-a-spus-ca-as-putea-ramane-cu-stoma-va-fi)
-- [Cancer de rect. După radiochimioterapie, tumora nu se mai vede. Mai trebuie să mă operez?](https://georgetaliga.ro/articole/cancer-de-rect-dupa-radiochimioterapie-tumora-nu-se-mai-vede)
-- [Cancer de rect. De ce nu mă operează direct?](https://georgetaliga.ro/articole/cancer-de-rect-de-ce-nu-ma-opereaza-direct)
-- [Cancer de prostată: când este corect să nu începem tratamentul imediat](https://georgetaliga.ro/articole/cancer-de-prostata-cand-este-corect-sa-nu-incepem-tratamentul)
-- [Cancer pulmonar, stadiul III. Mai există tratament cu scop de vindecare?](https://georgetaliga.ro/articole/cancer-pulmonar-stadiul-iii-mai-exista-tratament-cu-scop-de)
-- [Cancerul de prostată. Operație sau radioterapie?](https://georgetaliga.ro/articole/cancerul-de-prostata-operatie-sau-radioterapie)
+- [Ce întrebări să puneți medicului la prima consultație de radioterapie](https://vladimirmalii.github.io/georgetaliga-variante/mov-portret/articole/ce-intrebari-sa-puneti-medicului-la-prima-consultatie-de)
+- [Operația a îndepărtat tumora, analizele sunt bune. De ce poate fi totuși greu de dus radioterapia până la capăt?](https://vladimirmalii.github.io/georgetaliga-variante/mov-portret/articole/operatia-a-indepartat-tumora-analizele-sunt-bune-de-ce-poate-fi)
+- [Când nu mai putem vindeca, încă mai putem îngriji](https://vladimirmalii.github.io/georgetaliga-variante/mov-portret/articole/cand-nu-mai-putem-vindeca-inca-mai-putem-ingriji)
+- [Stadiul IV înseamnă stadiu terminal? Se poate trăi ani cu un cancer metastatic?](https://vladimirmalii.github.io/georgetaliga-variante/mov-portret/articole/stadiul-iv-inseamna-stadiu-terminal-se-poate-trai-ani-cu-un)
+- [Cancer în stadiul IV de la început sau metastaze apărute după ani. Este același lucru?](https://vladimirmalii.github.io/georgetaliga-variante/mov-portret/articole/cancer-in-stadiul-iv-de-la-inceput-sau-metastaze-aparute-dupa)
+- [Cancer descoperit direct în stadiul IV. Cum este posibil, dacă până acum nu am simțit nimic?](https://vladimirmalii.github.io/georgetaliga-variante/mov-portret/articole/cancer-descoperit-direct-in-stadiul-iv-cum-este-posibil-daca)
+- [Cancer în stadiul IV. Ce înseamnă, de fapt, și ce este o metastază?](https://vladimirmalii.github.io/georgetaliga-variante/mov-portret/articole/cancer-in-stadiul-iv-ce-inseamna-de-fapt-si-ce-este-o-metastaza)
+- [Medicina nu lucrează cu garanții](https://vladimirmalii.github.io/georgetaliga-variante/mov-portret/articole/medicina-nu-lucreaza-cu-garantii)
+- [Cancer pulmonar la nefumător. Cum este posibil dacă nu am fumat niciodată?](https://vladimirmalii.github.io/georgetaliga-variante/mov-portret/articole/cancer-pulmonar-la-nefumator-cum-este-posibil-daca-nu-am-fumat)
+- [Cancer de vezică urinară. Am ales tratamentul pentru păstrarea vezicii. Cum se desfășoară și ce urmează după?](https://vladimirmalii.github.io/georgetaliga-variante/mov-portret/articole/cancer-de-vezica-urinara-am-ales-tratamentul-pentru-pastrarea)
+- [Cancer de vezică urinară. Trebuie scoasă vezica sau poate fi păstrată prin radiochimioterapie?](https://vladimirmalii.github.io/georgetaliga-variante/mov-portret/articole/cancer-de-vezica-urinara-trebuie-scoasa-vezica-sau-poate-fi)
+- [Cancer de col uterin. Operație sau radiochimioterapie? Cum alegem tratamentul în funcție de stadiu?](https://vladimirmalii.github.io/georgetaliga-variante/mov-portret/articole/cancer-de-col-uterin-operatie-sau-radiochimioterapie-cum-alegem)
+- [Metastaze cerebrale. Înseamnă că trebuie iradiat tot creierul?](https://vladimirmalii.github.io/georgetaliga-variante/mov-portret/articole/metastaze-cerebrale-inseamna-ca-trebuie-iradiat-tot-creierul)
+- [Metastază la coloana cervicală. Când este suficientă radioterapia și când este nevoie de operație?](https://vladimirmalii.github.io/georgetaliga-variante/mov-portret/articole/metastaza-la-coloana-cervicala-cand-este-suficienta)
+- [Metastază osoasă. Am fost operat și osul a fost stabilizat. De ce mai poate fi necesară radioterapia?](https://vladimirmalii.github.io/georgetaliga-variante/mov-portret/articole/metastaza-osoasa-am-fost-operat-si-osul-a-fost-stabilizat-de-ce)
+- [Cancer de rect. Mi s-a spus că aș putea rămâne cu stomă. Va fi temporară sau definitivă?](https://vladimirmalii.github.io/georgetaliga-variante/mov-portret/articole/cancer-de-rect-mi-s-a-spus-ca-as-putea-ramane-cu-stoma-va-fi)
+- [Cancer de rect. După radiochimioterapie, tumora nu se mai vede. Mai trebuie să mă operez?](https://vladimirmalii.github.io/georgetaliga-variante/mov-portret/articole/cancer-de-rect-dupa-radiochimioterapie-tumora-nu-se-mai-vede)
+- [Cancer de rect. De ce nu mă operează direct?](https://vladimirmalii.github.io/georgetaliga-variante/mov-portret/articole/cancer-de-rect-de-ce-nu-ma-opereaza-direct)
+- [Cancer de prostată: când este corect să nu începem tratamentul imediat](https://vladimirmalii.github.io/georgetaliga-variante/mov-portret/articole/cancer-de-prostata-cand-este-corect-sa-nu-incepem-tratamentul)
+- [Cancer pulmonar, stadiul III. Mai există tratament cu scop de vindecare?](https://vladimirmalii.github.io/georgetaliga-variante/mov-portret/articole/cancer-pulmonar-stadiul-iii-mai-exista-tratament-cu-scop-de)
+- [Cancerul de prostată. Operație sau radioterapie?](https://vladimirmalii.github.io/georgetaliga-variante/mov-portret/articole/cancerul-de-prostata-operatie-sau-radioterapie)
 ### Înainte de tratament
 
 Consultația, simularea, planificarea, ce trebuie pregătit.
 
-- [Ce se întâmplă la prima ședință de radioterapie](https://georgetaliga.ro/articole/ce-se-intampla-la-prima-sedinta-de-radioterapie)
-- [Cancer de col uterin. Ce este brahiterapia și de ce nu este suficientă doar radioterapia externă?](https://georgetaliga.ro/articole/cancer-de-col-uterin-ce-este-brahiterapia-si-de-ce-nu-este)
-- [Cancer ORL. De ce este esențială evaluarea stomatologică înainte de radioterapie?](https://georgetaliga.ro/articole/cancer-orl-de-ce-este-esentiala-evaluarea-stomatologica-inainte)
+- [Ce se întâmplă la prima ședință de radioterapie](https://vladimirmalii.github.io/georgetaliga-variante/mov-portret/articole/ce-se-intampla-la-prima-sedinta-de-radioterapie)
+- [Cancer de col uterin. Ce este brahiterapia și de ce nu este suficientă doar radioterapia externă?](https://vladimirmalii.github.io/georgetaliga-variante/mov-portret/articole/cancer-de-col-uterin-ce-este-brahiterapia-si-de-ce-nu-este)
+- [Cancer ORL. De ce este esențială evaluarea stomatologică înainte de radioterapie?](https://vladimirmalii.github.io/georgetaliga-variante/mov-portret/articole/cancer-orl-de-ce-este-esentiala-evaluarea-stomatologica-inainte)
 ### În timpul tratamentului
 
 Efectele secundare, alimentația, îngrijirea pielii, ce e normal.
 
-- [Oboseala în timpul radioterapiei: de ce apare și ce puteți face](https://georgetaliga.ro/articole/oboseala-in-timpul-radioterapiei-de-ce-apare-si-ce-puteti-face)
-- [Îngrijirea pielii în zona iradiată](https://georgetaliga.ro/articole/ingrijirea-pielii-in-zona-iradiata)
-- [Alimentația în timpul radioterapiei](https://georgetaliga.ro/articole/alimentatia-in-timpul-radioterapiei)
-- [Alimentația în timpul radioterapiei abdominale și pelvine](https://georgetaliga.ro/articole/alimentatia-in-timpul-radioterapiei-abdominale-si-pelvine)
-- [Alimentația în timpul radioterapiei cerebrale](https://georgetaliga.ro/articole/alimentatia-in-timpul-radioterapiei-cerebrale)
-- [Alimentația în timpul radioterapiei capului și gâtului](https://georgetaliga.ro/articole/alimentatia-in-timpul-radioterapiei-capului-si-gatului)
-- [Alimentația în timpul radioterapiei toracice](https://georgetaliga.ro/articole/alimentatia-in-timpul-radioterapiei-toracice)
-- [Anxietatea în timpul tratamentului oncologic](https://georgetaliga.ro/articole/anxietatea-in-timpul-tratamentului-oncologic)
-- [Mă simt slăbit în timpul radioterapiei. Ce pot mânca și când trebuie să caut altă cauză?](https://georgetaliga.ro/articole/ma-simt-slabit-in-timpul-radioterapiei-ce-pot-manca-si-cand)
-- [Vitaminele și antioxidanții în timpul tratamentului oncologic: pot uneori să încurce tratamentul?](https://georgetaliga.ro/articole/vitaminele-si-antioxidantii-in-timpul-tratamentului-oncologic)
-- [Cancer de col uterin. De ce fac chimioterapie în timpul radioterapiei? Nu sunt suficiente „razele”?](https://georgetaliga.ro/articole/cancer-de-col-uterin-de-ce-fac-chimioterapie-in-timpul)
-- [Mi s-a înroșit pielea de la radioterapie. Ce este radiodermita și cum o îngrijim?](https://georgetaliga.ro/articole/mi-s-a-inrosit-pielea-de-la-radioterapie-ce-este-radiodermita)
-- [Cancer ORL. Nu mai pot înghiți, nu mai simt gustul și mă doare gâtul. Cum pot continua radioterapia?](https://georgetaliga.ro/articole/cancer-orl-nu-mai-pot-inghiti-nu-mai-simt-gustul-si-ma-doare)
+- [Oboseala în timpul radioterapiei: de ce apare și ce puteți face](https://vladimirmalii.github.io/georgetaliga-variante/mov-portret/articole/oboseala-in-timpul-radioterapiei-de-ce-apare-si-ce-puteti-face)
+- [Îngrijirea pielii în zona iradiată](https://vladimirmalii.github.io/georgetaliga-variante/mov-portret/articole/ingrijirea-pielii-in-zona-iradiata)
+- [Alimentația în timpul radioterapiei](https://vladimirmalii.github.io/georgetaliga-variante/mov-portret/articole/alimentatia-in-timpul-radioterapiei)
+- [Alimentația în timpul radioterapiei abdominale și pelvine](https://vladimirmalii.github.io/georgetaliga-variante/mov-portret/articole/alimentatia-in-timpul-radioterapiei-abdominale-si-pelvine)
+- [Alimentația în timpul radioterapiei cerebrale](https://vladimirmalii.github.io/georgetaliga-variante/mov-portret/articole/alimentatia-in-timpul-radioterapiei-cerebrale)
+- [Alimentația în timpul radioterapiei capului și gâtului](https://vladimirmalii.github.io/georgetaliga-variante/mov-portret/articole/alimentatia-in-timpul-radioterapiei-capului-si-gatului)
+- [Alimentația în timpul radioterapiei toracice](https://vladimirmalii.github.io/georgetaliga-variante/mov-portret/articole/alimentatia-in-timpul-radioterapiei-toracice)
+- [Anxietatea în timpul tratamentului oncologic](https://vladimirmalii.github.io/georgetaliga-variante/mov-portret/articole/anxietatea-in-timpul-tratamentului-oncologic)
+- [Mă simt slăbit în timpul radioterapiei. Ce pot mânca și când trebuie să caut altă cauză?](https://vladimirmalii.github.io/georgetaliga-variante/mov-portret/articole/ma-simt-slabit-in-timpul-radioterapiei-ce-pot-manca-si-cand)
+- [Vitaminele și antioxidanții în timpul tratamentului oncologic: pot uneori să încurce tratamentul?](https://vladimirmalii.github.io/georgetaliga-variante/mov-portret/articole/vitaminele-si-antioxidantii-in-timpul-tratamentului-oncologic)
+- [Cancer de col uterin. De ce fac chimioterapie în timpul radioterapiei? Nu sunt suficiente „razele”?](https://vladimirmalii.github.io/georgetaliga-variante/mov-portret/articole/cancer-de-col-uterin-de-ce-fac-chimioterapie-in-timpul)
+- [Mi s-a înroșit pielea de la radioterapie. Ce este radiodermita și cum o îngrijim?](https://vladimirmalii.github.io/georgetaliga-variante/mov-portret/articole/mi-s-a-inrosit-pielea-de-la-radioterapie-ce-este-radiodermita)
+- [Cancer ORL. Nu mai pot înghiți, nu mai simt gustul și mă doare gâtul. Cum pot continua radioterapia?](https://vladimirmalii.github.io/georgetaliga-variante/mov-portret/articole/cancer-orl-nu-mai-pot-inghiti-nu-mai-simt-gustul-si-ma-doare)
 ### După tratament
 
 Recuperarea, controalele, revenirea la viața de zi cu zi.
 
-- [După ultima ședință de radioterapie](https://georgetaliga.ro/articole/dupa-ultima-sedinta-de-radioterapie)
-- [Am terminat radioterapia. Pot merge la băi termale, saună sau jacuzzi?](https://georgetaliga.ro/articole/am-terminat-radioterapia-pot-merge-la-bai-termale-sauna-sau)
-- [Am terminat radioterapia. Când pot merge la plajă și cât timp trebuie să mă feresc de soare?](https://georgetaliga.ro/articole/am-terminat-radioterapia-cand-pot-merge-la-plaja-si-cat-timp)
-- [Cancer de vezică urinară. Am păstrat vezica prin radiochimioterapie. De ce aș putea ajunge totuși la operație?](https://georgetaliga.ro/articole/cancer-de-vezica-urinara-am-pastrat-vezica-prin)
-- [Cancer de sân. După radioterapie, zona s-a întărit și mă doare. Este fibroză sau a revenit boala?](https://georgetaliga.ro/articole/cancer-de-san-dupa-radioterapie-zona-s-a-intarit-si-ma-doare)
-- [Cancer de sân. Mi s-a umflat brațul după operație și radioterapie. Este limfedem? Se mai poate face ceva?](https://georgetaliga.ro/articole/cancer-de-san-mi-s-a-umflat-bratul-dupa-operatie-si)
-- [Cancer de sân hormonodependent. Am fost operată, am terminat radioterapia, iar controalele sunt bune. De ce mai trebuie hormonoterapie ani de zile?](https://georgetaliga.ro/articole/cancer-de-san-hormonodependent-am-fost-operata-am-terminat)
-- [Cancerul de prostată. După radioterapie, viața intimă nu mai este la fel. Ce se poate face?](https://georgetaliga.ro/articole/cancerul-de-prostata-dupa-radioterapie-viata-intima-nu-mai-este)
+- [După ultima ședință de radioterapie](https://vladimirmalii.github.io/georgetaliga-variante/mov-portret/articole/dupa-ultima-sedinta-de-radioterapie)
+- [Am terminat radioterapia. Pot merge la băi termale, saună sau jacuzzi?](https://vladimirmalii.github.io/georgetaliga-variante/mov-portret/articole/am-terminat-radioterapia-pot-merge-la-bai-termale-sauna-sau)
+- [Am terminat radioterapia. Când pot merge la plajă și cât timp trebuie să mă feresc de soare?](https://vladimirmalii.github.io/georgetaliga-variante/mov-portret/articole/am-terminat-radioterapia-cand-pot-merge-la-plaja-si-cat-timp)
+- [Cancer de vezică urinară. Am păstrat vezica prin radiochimioterapie. De ce aș putea ajunge totuși la operație?](https://vladimirmalii.github.io/georgetaliga-variante/mov-portret/articole/cancer-de-vezica-urinara-am-pastrat-vezica-prin)
+- [Cancer de sân. După radioterapie, zona s-a întărit și mă doare. Este fibroză sau a revenit boala?](https://vladimirmalii.github.io/georgetaliga-variante/mov-portret/articole/cancer-de-san-dupa-radioterapie-zona-s-a-intarit-si-ma-doare)
+- [Cancer de sân. Mi s-a umflat brațul după operație și radioterapie. Este limfedem? Se mai poate face ceva?](https://vladimirmalii.github.io/georgetaliga-variante/mov-portret/articole/cancer-de-san-mi-s-a-umflat-bratul-dupa-operatie-si)
+- [Cancer de sân hormonodependent. Am fost operată, am terminat radioterapia, iar controalele sunt bune. De ce mai trebuie hormonoterapie ani de zile?](https://vladimirmalii.github.io/georgetaliga-variante/mov-portret/articole/cancer-de-san-hormonodependent-am-fost-operata-am-terminat)
+- [Cancerul de prostată. După radioterapie, viața intimă nu mai este la fel. Ce se poate face?](https://vladimirmalii.github.io/georgetaliga-variante/mov-portret/articole/cancerul-de-prostata-dupa-radioterapie-viata-intima-nu-mai-este)
 ### Pentru familie
 
 Cum puteți sprijini un apropiat și ce se întâmplă când medicina are limite.
 
-- [Cineva drag are cancer. Ce îi spun și cum îl pot ajuta?](https://georgetaliga.ro/articole/cineva-drag-are-cancer-ce-ii-spun-si-cum-il-pot-ajuta)
-- [Când medicina are limite. Ce se întâmplă între pacient, familie și medic?](https://georgetaliga.ro/articole/cand-medicina-are-limite-ce-se-intampla-intre-pacient-familie)
+- [Cineva drag are cancer. Ce îi spun și cum îl pot ajuta?](https://vladimirmalii.github.io/georgetaliga-variante/mov-portret/articole/cineva-drag-are-cancer-ce-ii-spun-si-cum-il-pot-ajuta)
+- [Când medicina are limite. Ce se întâmplă între pacient, familie și medic?](https://vladimirmalii.github.io/georgetaliga-variante/mov-portret/articole/cand-medicina-are-limite-ce-se-intampla-intre-pacient-familie)
 ### Mituri și adevăruri
 
 Ce se spune despre cancer și radioterapie și ce arată datele medicale.
 
-- [Rămân radioactiv după radioterapia externă?](https://georgetaliga.ro/articole/raman-radioactiv-dupa-radioterapia-externa)
-- [Un părinte a avut cancer. Voi face și eu?](https://georgetaliga.ro/articole/un-parinte-a-avut-cancer-voi-face-si-eu)
-- [Am trecut prin ani de stres. Poate stresul să fi provocat cancerul? Îl poate face să progreseze?](https://georgetaliga.ro/articole/am-trecut-prin-ani-de-stres-poate-stresul-sa-fi-provocat)
-- [Cancerul se hrănește cu zahăr? Dacă scot zahărul din alimentație, pot „înfometa” tumora?](https://georgetaliga.ro/articole/cancerul-se-hraneste-cu-zahar-daca-scot-zaharul-din-alimentatie)
-- [Mi-e teamă să fac biopsie. Poate „împrăștia” cancerul?](https://georgetaliga.ro/articole/mi-e-teama-sa-fac-biopsie-poate-imprastia-cancerul)
-- [Radonul din locuință. Poate un gaz pe care nu îl vedem și nu îl mirosim să crească riscul de cancer pulmonar?](https://georgetaliga.ro/articole/radonul-din-locuinta-poate-un-gaz-pe-care-nu-il-vedem-si-nu-il)
-- [HPV nu este doar o problemă a femeilor. Poate provoca și cancer orofaringian, mai ales la bărbați.](https://georgetaliga.ro/articole/hpv-nu-este-doar-o-problema-a-femeilor-poate-provoca-si-cancer)
+- [Rămân radioactiv după radioterapia externă?](https://vladimirmalii.github.io/georgetaliga-variante/mov-portret/articole/raman-radioactiv-dupa-radioterapia-externa)
+- [Un părinte a avut cancer. Voi face și eu?](https://vladimirmalii.github.io/georgetaliga-variante/mov-portret/articole/un-parinte-a-avut-cancer-voi-face-si-eu)
+- [Am trecut prin ani de stres. Poate stresul să fi provocat cancerul? Îl poate face să progreseze?](https://vladimirmalii.github.io/georgetaliga-variante/mov-portret/articole/am-trecut-prin-ani-de-stres-poate-stresul-sa-fi-provocat)
+- [Cancerul se hrănește cu zahăr? Dacă scot zahărul din alimentație, pot „înfometa” tumora?](https://vladimirmalii.github.io/georgetaliga-variante/mov-portret/articole/cancerul-se-hraneste-cu-zahar-daca-scot-zaharul-din-alimentatie)
+- [Mi-e teamă să fac biopsie. Poate „împrăștia” cancerul?](https://vladimirmalii.github.io/georgetaliga-variante/mov-portret/articole/mi-e-teama-sa-fac-biopsie-poate-imprastia-cancerul)
+- [Radonul din locuință. Poate un gaz pe care nu îl vedem și nu îl mirosim să crească riscul de cancer pulmonar?](https://vladimirmalii.github.io/georgetaliga-variante/mov-portret/articole/radonul-din-locuinta-poate-un-gaz-pe-care-nu-il-vedem-si-nu-il)
+- [HPV nu este doar o problemă a femeilor. Poate provoca și cancer orofaringian, mai ales la bărbați.](https://vladimirmalii.github.io/georgetaliga-variante/mov-portret/articole/hpv-nu-este-doar-o-problema-a-femeilor-poate-provoca-si-cancer)

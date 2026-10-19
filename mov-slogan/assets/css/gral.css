@@ -1780,9 +1780,10 @@ ul {
 .de-completat-nota{margin-top:14px;font-size:14px;font-style:italic;color:var(--text-slab)}
 
 
-/* poza de la birou: chipul e la mijloc si in treimea de sus */
-.despre__foto img.despre__foto-birou{object-position:50% 22%}
-@media (min-width:1000px){ .despre__foto img.despre__foto-birou{object-position:50% 30%} }
+/* poza de la birou (4:5, din 14.10): pe telefon cadrul e 16:10, deci se
+   pastreaza capul si umerii; pe ecran lat cadrul are acelasi raport cu poza */
+.despre__foto img.despre__foto-birou{object-position:50% 8%}
+@media (min-width:980px){ .despre__foto img.despre__foto-birou{object-position:50% 50%} }
 
 
 /* ==========================================================================
@@ -2068,24 +2069,80 @@ main a[href^="tel:"],main a[href^="mailto:"],#locatie{-webkit-user-select:text;u
 
 
 /* ==========================================================================
-   Prima pagina din 19.10: portretul imediat sub antet, si pe telefon
+   Prima pagina din 19.10: portretul imediat sub antet, si pe telefon.
+   Corecturile din revizia din 19.10 sunt marcate cu (revizie).
    ========================================================================== */
 :root{--accent-rgb:69,88,190;--bleumarin-rgb:31,39,100}
+/* (revizie) figurile nu mai primesc marginile implicite ale browserului
+   (16 si 40 px): portretul, poza din Despre mine, cea de la etape si citatul
+   se aliniaza cu restul paginii */
+figure{margin:0}
+.btn{text-align:center}
 .banda-draft a{color:#fff;text-decoration:underline;text-underline-offset:2px}
+/* (revizie) banda de lucru pe un singur rand pe telefon, ca numele mare sa
+   intre in primul ecran si cu barele browserului (Safari pe iPhone SE) */
+.banda-draft__scurt{display:none}
+@media (max-width:619px){
+  .banda-draft{padding:6px 12px;font-size:12px}
+  .banda-draft__lung{display:none}
+  .banda-draft__scurt{display:inline}
+}
 .hero__nume{font-size:clamp(2rem,1.3rem + 2.6vw,3.4rem);font-weight:800;color:var(--bleumarin);letter-spacing:-.025em;line-height:1.06;text-align:left;margin:0}
 .hero--portret .hero__nume{margin:0}
 .hero__rol{font-size:12.5px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--accent);margin:12px 0 0;line-height:1.55;text-align:left}
 .hero__slogan{text-align:left;margin-top:18px}
-.hero--portret .lead{margin:26px 0 0;max-width:30rem}
+.hero--portret .lead{margin:26px 0 0;max-width:33rem}
 .hero--portret .hero__media{align-self:start}
-/* restul site-ului, strans in butoane (cererea din 19.10) */
-.hero__butoane{display:flex;flex-wrap:wrap;gap:10px;margin-top:34px}
-.hero__butoane .btn--primar{flex:1 1 100%}
-.hero__butoane .btn--contur{flex:0 0 calc(50% - 5px);min-width:0;padding:13px 12px;font-size:14px;text-align:center}
-@media (min-width:620px){
-  .hero__butoane .btn--primar{flex:0 0 auto}
-  .hero__butoane .btn--contur{flex:0 0 auto;padding:13px 18px}
+/* restul site-ului, strans in butoane (cererea din 19.10): o grila pe doua
+   coloane, trei randuri egale; pe telefon programarea ocupa tot randul */
+.hero__butoane{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:34px;max-width:33rem}
+.hero__butoane .btn{min-width:0;padding:13px 10px;font-size:14px;line-height:1.25}
+.hero__butoane .btn--primar{grid-column:1 / -1}
+/* (revizie) pe telefon „Etapele tratamentului” nu incape pe o jumatate de
+   rand: trece ultimul, pe tot randul, iar randurile raman egale */
+@media (max-width:619px){
+  .hero__butoane .btn:nth-child(4){grid-column:1 / -1;order:6}
 }
+@media (min-width:620px){
+  .hero__butoane .btn{padding:14px 16px;font-size:14.5px}
+  .hero__butoane .btn--primar{grid-column:auto}
+}
+/* (revizie) pe tableta, grila pe toata latimea, tot pe doua coloane: pe trei,
+   „Programați o consultație” se rupea pe doua randuri la 768 px */
+@media (min-width:620px) and (max-width:999px){
+  .hero__butoane{max-width:none}
+  .hero--portret .hero__text,.hero--portret .lead{max-width:none}
+}
+/* etichetele scurte (functia, legendele foto) nu se despart in silabe:
+   „ONCO-FORT” la capat de rand, in majuscule, arata a greseala */
+.hero__rol,.etape__legenda,.banda__legenda{-webkit-hyphens:none;hyphens:none}
+/* (revizie) datele de contact raman intregi: fara silabe in contul de
+   Instagram, in adresa si in telefon */
+.caseta__detaliu a,.legatura-ig,.subsol a,.subsol__firma{-webkit-hyphens:none;hyphens:none}
+a[href^="tel:"]{white-space:nowrap}
+/* (revizie) etichetele de sectiune au aceeasi marime peste tot (regula
+   .sectiune__intro p le marea la 15,5 px) si culoarea accentului si in
+   „Despre mine” */
+.sectiune__intro p.supratitlu{font-size:12px;margin-top:0}
+.despre__text p.supratitlu{color:var(--accent)}
+/* (revizie) cuprinsul, listele de legaturi, etichetele cu majuscule si banda
+   de autoritate nu sunt text de citit: la stanga, fara silabe */
+.cuprins li,.regiune__lista a,.supratitlu,.autoritate__text{text-align:left;-webkit-hyphens:none;hyphens:none}
+/* (revizie) in subsol functia ramane si pe telefon (regula de ascundere era
+   gandita doar pentru antet) */
+@media (max-width:479px){
+  .subsol__marca .marca__rol{display:block}
+}
+/* (revizie) pe desktop, aer intre ultima intrare din meniu si buton */
+@media (min-width:1240px){
+  .antet__actiuni{padding-left:18px}
+}
+/* (revizie) articolele: coloana de lectura si antetul centrate pe desktop
+   (inainte, coloana lipita la stanga lasa 40% din latime goala) */
+.pagina-hero--articol .container,.sectiune--articol > .container:not(.pagina-diag){max-width:calc(42rem + 64px)}
+/* (revizie) listele din articole au buline (resetarea globala le scotea) */
+.text-articol ul{list-style:disc}
+.text-articol ol{list-style:decimal}
 @media (min-width:1000px){
   .hero--portret .hero__grid{align-items:center;min-height:min(80vh,760px)}
   .hero--portret .hero__text{padding-block:clamp(30px,4vw,60px)}
@@ -2096,14 +2153,48 @@ main a[href^="tel:"],main a[href^="mailto:"],#locatie{-webkit-user-select:text;u
   .nav{gap:clamp(16px,2vw,28px);margin-left:clamp(18px,2.4vw,36px)}
   .nav a{white-space:nowrap;font-size:clamp(13px,.5vw + 8px,14px)}
 }
+/* intre 1000 si 1239 px cele cinci intrari nu incap langa nume si buton
+   (masurat 19.10: butonul Programare iesea cu 70 px din ecran la 1024, si cu
+   1 px la 1180 in varianta cu numele cu serife); acolo ramane meniul compact */
+@media (min-width:1000px) and (max-width:1239px){
+  .nav{display:none}
+  .buton-meniu{display:inline-flex}
+  .meniu:not([hidden]){display:block !important}
+}
 @media (max-width:999px){
-  .hero--portret{padding-top:14px}
+  .hero--portret{padding-top:14px;padding-bottom:clamp(36px,9vw,56px)}
   .hero--portret .hero__media{order:-1;max-width:none;margin:0}
   .hero--portret .hero__media::before{left:14px;right:-8px;top:14px;bottom:-8px}
-  .hero--portret .hero__foto img{aspect-ratio:1/1;object-position:50% 12%}
+  .hero--portret .hero__foto img{aspect-ratio:1/1;object-position:50% 10%}
 }
+/* (revizie) pe tableta cadrul 16:10 taia sub barbie, ca la buletin: acum
+   4:3, cu capul si umerii; sursa de 1350 px (srcset) tine imaginea clara */
 @media (min-width:620px) and (max-width:999px){
-  .hero--portret .hero__foto img{aspect-ratio:16/10;object-position:50% 20%}
+  .hero--portret .hero__foto img{aspect-ratio:4/3;object-position:50% 10%}
+}
+/* (revizie) „Despre mine”: dreptunghiul decorativ doar pe ecranele late; pe
+   telefon iesea ca o pata gri langa marginea ecranului */
+@media (max-width:979px){
+  .despre__media::before{display:none}
+}
+/* (revizie) intrarea hero-ului: poza apare prima, cum a cerut ea, si fara
+   opacitate (regula proiectului: animatiile doar deplaseaza, nu ascund) */
+@media (prefers-reduced-motion:no-preference){
+  .js .hero--portret .hero__text,
+  .js .hero--portret .hero__media{opacity:1;animation-name:intrare-deplasare}
+  .js .hero--portret .hero__media{animation-delay:0s}
+  .js .hero--portret .hero__text{animation-delay:.1s}
+  @keyframes intrare-deplasare{from{transform:translateY(18px)}to{transform:none}}
+}
+/* pagina Etape: legaturile spre articolele pe etape */
+.etichete--etape{margin-top:26px}
+/* antetul cu fotografie si fir de navigare (Pentru pacienti) */
+.pagina-hero--cu-foto .fir{margin-bottom:18px}
+/* pe telefon poza din antet e lata si joasa, ca instrumentele sa nu fie
+   impinse cu un ecran intreg mai jos */
+@media (max-width:899px){
+  .pagina-hero--compact .pagina-hero__foto{aspect-ratio:4/3;max-width:none}
+  .pagina-hero--compact .pagina-hero__foto img{object-position:50% 0%}
 }
 
 
@@ -2123,22 +2214,73 @@ main a[href^="tel:"],main a[href^="mailto:"],#locatie{-webkit-user-select:text;u
   --text:#3a2f5e;--text-slab:#5a4f7e;
   --linie:rgba(42,23,89,.14);--linie-tare:rgba(42,23,89,.3);
   --accent-pe-inchis:#ffb0c0;
+  --rosu:#c23f5b;--rosu-apasat:#a32f49;--pe-inchis-apasat:#ffd0da;
 }
 .hero{background:linear-gradient(100deg,#321566 0%,#4a1c86 55%,#5a21a0 100%);color:#fff}
 .hero__camp{display:none !important}
 .hero h1,.hero__nume{color:#fff}
 .hero__rol{color:#d9ccf5}
 .hero .lead{color:#e6ddf8}
+/* sloganul nu mai domina numele: un singur rand, cu linia rosie din
+   fisierul ei sub el */
 .hero__slogan{
   font-family:Allura,"Brush Script MT",cursive;font-weight:400;
-  font-size:clamp(2.9rem,2.1rem + 4vw,5.2rem);line-height:1.02;color:#fff;
-  margin:4px 0 14px;letter-spacing:.01em;
+  font-size:clamp(2.2rem,1.6rem + 2.2vw,3.4rem);line-height:1.1;color:#fff;
+  margin:22px 0 0;letter-spacing:.01em;
 }
-.hero__slogan + h1{font-size:clamp(1.5rem,1.2rem + 1.5vw,2.3rem);color:#e6ddf8;font-weight:700}
-.hero__nota{color:var(--alb-70);border-top-color:var(--linie-alba)}
-.hero__nota a{color:#fff}
-.hero__nota svg{color:#ffb0c0}
+.hero__slogan::after{content:"";display:block;width:56px;height:3px;background:#d9546c;margin-top:16px;border-radius:2px}
+.hero--portret .hero__slogan + .lead{margin-top:20px}
 .hero .btn--contur{background:transparent;color:#fff;border-color:rgba(255,255,255,.45)}
 .hero .btn--contur:hover{background:rgba(255,255,255,.08);border-color:#fff}
+.hero :focus-visible{outline-color:#fff}
 .hero__media::before{background:rgba(255,255,255,.14)}
 .hero__foto{box-shadow:0 34px 70px -38px rgba(0,0,0,.7)}
+/* rama portretului si pe ecranele late, ca in descriere */
+@media (min-width:1000px){
+  .hero__media::before{display:block;left:26px;right:-18px;top:26px;bottom:-18px;border-radius:var(--raza)}
+}
+/* semnatura din subsol, scrisa ca in fisierul ei */
+.subsol__marca .marca__nume{font-family:Allura,"Brush Script MT",cursive;font-weight:400;font-size:34px;letter-spacing:0;line-height:1.1}
+
+.antet,.antet.lipit{background:#321566;border-bottom-color:rgba(255,255,255,.12)}
+@supports ((backdrop-filter:blur(10px)) or (-webkit-backdrop-filter:blur(10px))){
+  .antet{background:rgba(50,21,102,.97)}
+}
+.antet .marca__nume{color:#fff}
+.antet .marca__rol{color:rgba(255,255,255,.78)}
+.antet .marca__semn{filter:brightness(0) invert(1)}
+.antet .nav a{color:rgba(255,255,255,.9)}
+.antet .nav a:hover,.antet .nav a[aria-current="page"]{color:#fff}
+.antet .nav a::after{background:var(--accent-pe-inchis)}
+.antet .buton-meniu{color:#fff;border-color:rgba(255,255,255,.32)}
+.antet .buton-meniu:hover{border-color:rgba(255,255,255,.7)}
+.antet :focus-visible{outline-color:#fff}
+
+/* umbrele, din movul temei (erau din bleumarinul vechi, albastrui) */
+:root{
+  --umbra-mica:0 2px 10px -6px rgba(var(--bleumarin-rgb),.5);
+  --umbra-card:0 18px 40px -32px rgba(var(--bleumarin-rgb),.55);
+  --umbra-mare:0 34px 70px -38px rgba(var(--bleumarin-rgb),.65);
+}
+/* butonul principal ramane rosu, cu text alb, si pe sectiunile inchise
+   (Programare, pe fiecare pagina); inainte era roz cu text mov */
+.etape .btn--primar,.chemare .btn--primar,.sectiune--inchis .btn--primar{background:var(--rosu);color:#fff}
+.etape .btn--primar:hover,.chemare .btn--primar:hover,.sectiune--inchis .btn--primar:hover{background:var(--rosu-apasat)}
+/* pe fundal inchis, hover-ul accentului ramane in familia temei */
+.etape,.chemare,.sectiune--inchis,.avertisment,.subsol,.banda{--accent-apasat:var(--pe-inchis-apasat)}
+/* cardurile mov de instrumente: accentul gandit pentru fundal inchis
+   (rosul de pe alb avea 3:1 pe mov) */
+.instrument{--accent:var(--accent-pe-inchis);--accent-apasat:var(--pe-inchis-apasat)}
+/* etichetele de pe lavanda, in nuanta inchisa a accentului (contrast AA) */
+.pagina-hero .supratitlu,.sectiune--deschis .supratitlu{color:var(--accent-apasat)}
+.sectiune--deschis .citat-mic{background:#fff}
+.locatie__harta{background:var(--alb-albastrui)}
+
+.etape{background:var(--alb-albastrui);color:var(--text);--accent:var(--rosu);--accent-apasat:var(--rosu-apasat)}
+.etape h2,.etape h3{color:var(--bleumarin)}
+.etape .sectiune__intro p,.pas p{color:var(--text-slab)}
+.etape .sectiune__intro p.supratitlu,.etape .supratitlu{color:var(--rosu-apasat)}
+.etape__foto{border-color:var(--linie)}
+.etape__legenda{color:var(--text-slab)}
+.pas::after{background:linear-gradient(to bottom,var(--linie-tare),var(--linie))}
+.pas__nr{background:#fff;border-color:var(--linie-tare);color:var(--rosu-apasat)}

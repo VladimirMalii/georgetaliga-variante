@@ -4,17 +4,17 @@
  "lang": "ro",
  "icons": [
   {
-   "src": "/icon-192.png",
+   "src": "/georgetaliga-variante/mov-rosu-gri/icon-192.png",
    "sizes": "192x192",
    "type": "image/png"
   },
   {
-   "src": "/icon-512.png",
+   "src": "/georgetaliga-variante/mov-rosu-gri/icon-512.png",
    "sizes": "512x512",
    "type": "image/png"
   }
  ],
- "theme_color": "#1f2764",
+ "theme_color": "#2a1759",
  "background_color": "#ffffff",
  "display": "browser"
 }
