@@ -2219,6 +2219,35 @@ a[href^="tel:"]{white-space:nowrap}
 /* „Ascult intai”: poza de la biroul de lemn, intreaga, centrata in coloana;
    pe toata latimea coloanei de text ar avea aproape 1000 px inaltime */
 .foto-lata--portret{max-width:420px;margin:30px auto 0}
+/* (20.10) „Radioterapia modernă”, textul ei pe prima pagina: titlul si primul
+   paragraf in stanga, cele doua intrebari in dreapta; pe telefon, unul sub altul */
+.radioterapia{display:grid;gap:clamp(22px,4vw,64px)}
+@media (min-width:980px){ .radioterapia{grid-template-columns:5fr 6fr;align-items:start} }
+.radioterapia .h-mare{margin:0 0 22px;font-size:clamp(1.62rem,1.2rem + 1.4vw,2.35rem)}
+.radioterapia p:not(.supratitlu),.despre-scurt p:not(.supratitlu){font-size:17px;line-height:1.75;color:var(--text);margin:16px 0 0}
+.radioterapia__intro p:not(.supratitlu){margin-top:0}
+.radioterapia__text h3{font-size:clamp(1.15rem,1.02rem + .5vw,1.35rem);font-weight:700;line-height:1.3;color:var(--bleumarin);margin:0}
+.radioterapia__text p + h3{margin-top:34px}
+.radioterapia__text h3 + p{margin-top:10px}
+/* (20.10) „Despre mine”, scurt si fara poza: o coloana de lectura, centrata */
+.despre-scurt{max-width:46rem;margin-inline:auto}
+.despre-scurt .h-mare{margin:0 0 6px}
+.despre-scurt__legaturi{display:flex;flex-wrap:wrap;align-items:center;gap:14px 24px;margin-top:28px}
+.despre-scurt__legaturi .legatura-ig{margin-top:0}
+/* (20.10) finalul textelor: distribuirea pe Facebook si numele ei, ca semnatura */
+.final-text{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:20px 28px;margin-top:42px;padding-top:24px;border-top:1px solid var(--linie)}
+.text-articol p.semnatura-text{margin:0 0 0 auto;text-align:right;line-height:1.2;-webkit-hyphens:none;hyphens:none}
+.semnatura-text__nume{display:block;font-size:22px;font-weight:700;color:var(--bleumarin);text-decoration:none}
+.semnatura-text__rol{display:block;margin-top:5px;font-size:13.5px;font-weight:600;letter-spacing:.04em;color:var(--text-slab)}
+.distribuie{display:inline-flex;align-items:center;gap:8px;padding:9px 16px;font-size:14px;font-weight:700;color:var(--albastru);text-decoration:none;border:1px solid var(--linie-tare);border-radius:999px;transition:border-color .2s}
+.distribuie:hover{border-color:var(--albastru)}
+/* (20.10) sursele ei, la finalul paginilor de diagnostic: bibliografie, mai
+   mica decat textul. Citarile pe ambele margini (regula de aur), cu despartirea
+   englezeasca a browserului; linkul pe randul lui, intreg, la stanga */
+.text-articol .surse{list-style:decimal;margin:16px 0 0;padding-left:1.5em;-webkit-hyphens:auto;hyphens:auto}
+.text-articol .surse li{font-size:14.5px;line-height:1.6;color:var(--text-slab);margin-top:12px;padding-left:4px;text-align:justify}
+.text-articol .surse li::marker{font-weight:600}
+.text-articol .surse a{display:block;margin-top:2px;text-align:left;overflow-wrap:anywhere;-webkit-hyphens:none;hyphens:none;color:var(--albastru)}
 
 
 /* ==========================================================================
@@ -2247,15 +2276,29 @@ a[href^="tel:"]{white-space:nowrap}
   --rosu:#b8234f;--rosu-apasat:#92183d;--pe-inchis-apasat:#ffd6e1;
   --raza:8px;
 }
-/* antetul ca in macheta: numele cu serife, mare, in mov profund */
-.marca__nume{font-family:Gelasio,Georgia,"Times New Roman",serif;font-weight:400;font-size:19px;letter-spacing:.05em;text-transform:uppercase;color:var(--bleumarin)}
+/* antetul ca in macheta: numele cu serife, in mov profund; din 20.10 plin si
+   mai mare („aproape nu se vede și e mai mic decât butonul de programare”) */
+.marca__nume{font-family:Gelasio,Georgia,"Times New Roman",serif;font-weight:600;font-size:23px;letter-spacing:.04em;text-transform:uppercase;color:var(--bleumarin)}
 .marca__rol{color:var(--text-slab);letter-spacing:.16em}
 .subsol__marca .marca__nume{font-size:20px;color:#fff}
 /* pe telefoanele inguste majusculele cu serife impingeau meniul in afara
-   ecranului (masurat 19.10: +53 px la 320); acolo numele se scrie normal */
-@media (max-width:419px){
-  .antet .marca__nume{font-size:17px;letter-spacing:0;text-transform:none}
+   ecranului (masurat 19.10: +53 px la 320); acolo numele se scrie normal, cat
+   de mare incape langa butoane (masurat 20.10, fara bara de derulare): sub
+   340 px ramane ca inainte, 17 px subtire, altfel iese din ecran cu 15 px */
+@media (max-width:559px){
+  .antet .marca__nume{font-size:21px;letter-spacing:0;text-transform:none}
 }
+@media (max-width:419px){
+  .antet .marca__nume{font-size:19px}
+}
+@media (max-width:359px){
+  .antet .marca__nume{font-size:17px}
+}
+@media (max-width:339px){
+  .antet .marca__nume{font-weight:400}
+}
+/* semnatura de la finalul textelor, scrisa ca cea din subsol */
+.semnatura-text__nume{font-family:Allura,"Brush Script MT",cursive;font-weight:400;font-size:38px;line-height:1}
 /* numele mare din hero, plin ca in macheta (Gelasio 600), si functia ca a
    doua linie a identitatii, cu litere obisnuite, nu ca eticheta */
 .hero__nume{font-family:Gelasio,Georgia,"Times New Roman",serif;font-weight:600;font-size:clamp(2.1rem,1.5rem + 2.7vw,3.6rem);letter-spacing:-.01em}
