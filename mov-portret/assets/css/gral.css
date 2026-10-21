@@ -1734,7 +1734,7 @@ ul {
 @media print{
   .unealta__formular,.rez__actiuni,.pagina-hero,.chemare,.subsol,.avertisment,.banda-draft{display:none !important}
   .unealta{display:block}
-  .cal__zi--sedinta{background:#3d50b5 !important;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  .cal__zi--sedinta{background:var(--albastru) !important;-webkit-print-color-adjust:exact;print-color-adjust:exact}
   .cal__zi--final{background:var(--accent) !important;-webkit-print-color-adjust:exact;print-color-adjust:exact}
 }
 
